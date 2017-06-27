@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  min-height: 100%;
+  background: #353c45;
+  color: #fff;
+  font-family: '微软雅黑';
+}
+a {
+  text-decoration: none;
+}
+.layout {
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.layout .weixin {
+  position: relative;
+  width: 22.733333rem;
+  height: 7.733333rem;
+  margin-top: 0.333333rem;
+}
+.layout .weixin .info {
+  margin-top: 2.8rem;
+  margin-left: 1.466667rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.layout .weixin .info h1 {
+  font-size: 1.133333rem;
+  font-weight: 400;
+}
+.layout .weixin .info p {
+  font-size: 0.8rem;
+  line-height: 1.533333rem;
+  padding-right: 0.666667rem;
+}
+.layout .logo {
+  margin-top: 2.666667rem;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.layout .logo img {
+  width: 100%;
+}
+.layout .download {
+  margin-top: 0.8rem;
+  width: 10.466667rem;
+  height: 3.0rem;
+  border-radius: 0.133333rem;
+}
+.layout .download a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.layout .download a img {
+  width: 100%;
+}
+.layout .detail {
+  font-size: 0.8rem;
+  margin-top: 0.866667rem;
+}
+.layout .QR_code {
+  margin-top: 4.666667rem;
+  width: 7.533333rem;
+  font-size: 0.8rem;
+}
+.layout .QR_code img {
+  width: 100%;
+}
+.layout .QR_code p {
+  text-align: center;
+  margin-top: 0.333333rem;
+}

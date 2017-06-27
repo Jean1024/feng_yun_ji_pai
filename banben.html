@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>风云即拍版本</title>
+  <link rel="stylesheet" href="css/version.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <script src="js/rem.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <div class="top">
+      <div class="title">风云即拍</div>
+      <div class="info">
+        版本: <span id="version">1.0</span> (build)&nbsp; &nbsp;大小: <span id="size">4.2</span>MB&nbsp; &nbsp;更新于: <span id="date">2017-07-01</span>
+      </div>
+    </div>
+    <div class="center">
+      <div class="explain">
+        <h2>更新说明</h2>
+        <div id="updateExplain">
+          1. Lorem ipsum dolor sit amet. <br>
+          2. Lorem ipsum dolor 123 amet. 
+        </div>
+      </div>
+      <div class="history">
+        <h2>历史版本</h2>
+        <ul>
+          <li>
+            <span class="item1">1.1 (build 18)</span>
+            <span class="item2">1.0 Lorem ipsum dolor  <br>
+            2.0 Lorem ipsum dolor .</span>
+            <span class="item3">2017-06-03</span>
+          </li>
+          <li>
+            <span class="item1">1.1 (build 18)</span>
+            <span class="item2">1.0 Lorem ipsum dolor </span>
+            <span class="item3">2017-06-03</span>
+          </li>
+          <li style="text-align: center;display: block;">更新版本</li>
+        </ul>
+      </div>
+    </div>
+    <!-- 轮播图 -->
+    <div class="lunbo">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="img/feng_yun/ad_pic_fyjp.png" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="img/feng_yun/ad_pic_tqwy.png" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="img/feng_yun/ad_pic_zgqx.png" alt=""></a></div>
+        </div>
+      </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="banner">
+      <a href="#"><img src="img/feng_yun/foot_pic_logo.png" alt=""></a>
+    </div>
+  </div>
+</body>
+</html>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/version.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    paginationClickable :true,
+    autoplay: 3000
+  })        
+  </script>
